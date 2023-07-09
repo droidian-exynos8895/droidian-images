@@ -1,0 +1,15 @@
+# This file has been generated automatically by droidian-new-device
+
+# samsung dream2lte
+samsung_dream2lte:
+  type: rootfs
+  arch: arm64
+  edition: phosh
+  variant: phone
+  apilevel: 28
+  use_internal_repository: false
+
+  packages:
+    - adaptation-droidian-exynos8895
+    - adaptation-exynos8895-configs
+    - android-system-samsung-dream2lte
